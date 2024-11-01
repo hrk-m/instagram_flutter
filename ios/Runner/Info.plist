@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>写真を保存するためにアクセス権が必要です。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>写真を表示するためにアクセス権が必要です。</string>
 </dict>
 </plist>
