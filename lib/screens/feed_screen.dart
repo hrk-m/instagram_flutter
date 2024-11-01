@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:instagram_flutter/utils/colors.dart';
 import 'package:instagram_flutter/utils/global_variable.dart';
 import 'package:instagram_flutter/widgets/post_card.dart';
@@ -24,11 +25,11 @@ class _FeedScreenState extends State<FeedScreen> {
           : AppBar(
               backgroundColor: mobileBackgroundColor,
               centerTitle: false,
-              // title: SvgPicture.asset(
-              //   'assets/ic_instagram.svg',
-              //   color: primaryColor,
-              //   height: 32,
-              // ),
+              title: SvgPicture.asset(
+                'assets/ic_instagram.svg',
+                color: primaryColor,
+                height: 32,
+              ),
               actions: [
                 IconButton(
                   icon: const Icon(

@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:instagram_flutter/resources/auth_methods.dart';
 import 'package:instagram_flutter/responsive/mobile_screen_layout.dart';
@@ -103,11 +104,11 @@ class _SignupScreenState extends State<SignupScreen> {
                 flex: 2,
                 child: Container(),
               ),
-              // SvgPicture.asset(
-              //   'assets/ic_instagram.svg',
-              //   color: primaryColor,
-              //   height: 64,
-              // ),
+              SvgPicture.asset(
+                'assets/ic_instagram.svg',
+                color: primaryColor,
+                height: 64,
+              ),
               const SizedBox(
                 height: 64,
               ),
